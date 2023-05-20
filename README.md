@@ -19,4 +19,4 @@
 
 ### Principais tags
 
-![COMO CRIAR UMA TAG](imgs/html_7.PNG)
+![COMO CRIAR UMA TAG](imgs/html_7.PNG)# INTRO_HTML
