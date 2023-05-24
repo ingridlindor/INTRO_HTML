@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tabela no HTML</h1>
+        <section id="alunos">
+            <h2>Tabela de alunos</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <!-- th somente aqui no thead -->
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th> Matricula</th>
+                    </tr>
+                </thead>
+                <!-- sempre usar td no tbody -->
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td>
+                        <td>CarolDanvers@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Ana Silva</td>
+                        <td>AnaSilva@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Bruno Melo</td>
+                        <td>Brunomelo@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>Tabela financeira</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2022</td> <!--MESCLANDO LIHAS-->
+                        <td>Despesa</td>
+                        <!-- <td colspan="2">Despesa</td> MESCLANDO COLUNAS-->
+                        <td>Almoço</td>
+                        <td>35,00</td>
+                    </tr>
+                    <tr>               
+                        <td>Receita</td>
+                        <td>Salario</td>
+                        <td>3.760,00</td>
+                    </tr>
+                </tbody>
+            </table>
+a
+        </section>
+    </main>
+</body>
+</html>
